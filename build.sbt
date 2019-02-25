@@ -20,3 +20,6 @@ libraryDependencies += "net.cilib" %% "cilib-core" % "2.0.1"
 
 scalacOptions += "-Ypartial-unification"
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.3")
+
+enablePlugins(TutPlugin)
+tutTargetDirectory := file("./out/")
