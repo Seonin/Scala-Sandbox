@@ -16,7 +16,6 @@ object EqApp extends App {
 
     val cat3 = Cat("Woof", "Blue")
 
-    println(cat1 === cat3)
     println(cat1 =!= cat3)
 
 }
